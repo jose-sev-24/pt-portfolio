@@ -3,40 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Test Portfolio</title>
+    <title>Jose Sevilla IV</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1>My Name</h1>
-        <p>Software Developer | Designer | Creator</p>
-    </header>
+    <div class="container">
+        <header id="top" class="profile-header">
+            <div class="logo-container">
+                <img src="images/profile-photo.png" alt="Jose Sevilla IV" class="profile-logo">
+            </div>
+            <div class="header-text">
+                <h1 class="name">
+                    Hello, I am Jose. <br>
+                    A Fitness Coach.
+                </h1>
+                <p class="tagline margin-bot-24">Gold's Gym - Certified Personal Trainer</p>
+                <div>
+                    <a href="#contact-me" class="link-text">Contact me <span class="arrow">➜</span></a>
+                </div>
+            </div>
+        </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I am testing this portfolio website. I love building things and learning new technologies.</p>
-        </section>
+        <!-- <div class="divider"></div> -->
 
-        <section id="projects">
-            <h2>My Projects</h2>
-            <ul>
-                <li><strong>Project A:</strong> A cool calculator app.</li>
-                <li><strong>Project B:</strong> A weather dashboard.</li>
-                <li><strong>Project C:</strong> This portfolio website!</li>
-            </ul>
-        </section>
+        <main class="content-grid">
+            
+            <!-- <section class="expertise-container">
+                <h2 class="section-title">About Me</h2>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at: <a href="mailto:email@example.com">email@example.com</a></p>
-        </section>
-    </main>
+                <div class="split-grid">
 
-    <footer>
-        <p>© 2024 My Name. Built for testing.</p>
-    </footer>
+                </div>
+            </section> -->
+
+            <section class="card">
+                <h3>About Me</h3>
+                <p class="margin-bot-24">
+                    Hello, I’m <b>Jose Sevilla IV</b>. <br> 
+                    I’m a <b>certified personal trainer</b> by day, and a <b>data analyst</b> at night. I use my experience in both worlds to help busy office professionals become fit and healthy.
+                </p>
+                
+                <a href="#more-about-me" class="link-text">More about me <span class="arrow">➜</span></a>
+            </section>
+
+            
+            <section class="card">
+                <h2>Certifications</h2>
+                <ul class="skills-list">
+                    <li>Gold’s Gym FIC - Batch #70</li>
+                    <li>Philippines Red Cross - Certified First Aider</li>
+                </ul>
+            </section>
+
+            <div class="spacer"></div>
+
+             <section class="card">
+                <h3>Personal Training Expertise</h3>
+                <!-- <p class="section-intro">Here are my specialties:</p> -->
+
+                <div class="split-grid-1 margin-bot-24">
+                    <section class="card card-hover">
+                        <div class="card-header">
+                            <span class="card-icon grayscale-emoji">👥</span>
+                            <h2>Corporate Wellness</h2>
+                        </div>
+                        <!-- <p>Helping busy office professionals become fit and healthy.</p> -->
+                        <p>Helping busy office professionals become fit and healthy. We focus on quick, effective workouts and healthy habits that fit into your workday.</p>
+                    </section>
+                    
+                    <section class="card card-hover">
+                        <div class="card-header">
+                            <span class="card-icon grayscale-emoji">🏃‍♂️</span>
+                            <h2>Event Training</h2>
+                        </div>
+                        <p>Customized programs for Fun Runs, Spartan Races, Hiking, and other activities. Personal plans to help you prepare for your upcoming outdoor activities.</p>
+                    </section>
+                    
+                    <section class="card card-hover">
+                        <div class="card-header">
+                            <span class="card-icon grayscale-emoji">❤️‍🩹</span>
+                            <h2>Overall Fitness</h2>
+                        </div>
+                        <p>Coaching covering Nutrition, Posture, and complete Well-being. Assisting you with simple ways to eat well, helping with your back and neck pains caused by sitting at a desk, and making you feel better overall.</p>
+                    </section>
+                </div>
+
+                <a href="#plans" class="link-text">Training Plans <span class="arrow">➜</span></a>
+            </section>
+
+
+            <div class="spacer"></div>
+            
+             <section id="contact-me" class="card">
+                <h3>Let’s talk about wellness</h3>
+                <p class="section-intro">You can contact me on the following:</p>
+
+                <div class="callout-container">
+                    <aside class="notion-callout card-hover">
+                        <div class="callout-icon grayscale-emoji">📍</div>
+                        <div class="callout-text">
+                            <strong>Gold’s Gym Novaliches</strong><br>
+                            Mon to Sat : 11am - 4pm
+                        </div>
+                    </aside>
+
+                    <aside class="notion-callout card-hover">
+                        <div class="callout-icon grayscale-emoji">📞</div>
+                        <div class="callout-text">0949-134-8085</div>
+                    </aside>
+
+                    <aside class="notion-callout card-hover">
+                        <div class="callout-icon grayscale-emoji">📩</div>
+                        <div class="callout-text">j.sevillaiv@gmail.com</div>
+                    </aside>
+
+                    <aside class="notion-callout card-hover">
+                        <div class="callout-icon grayscale-emoji">👤</div>
+                        <div class="callout-text">@j.sevillaiv (FB/IG)</div>
+                    </aside>
+                </div>
+            </section>
+
+            <section id="more-about-me" class="image-block">
+                <div class="image-wrapper">
+                    <img src="images/img-portfolio.png" alt="Jose Sevilla IV Personal Training" class="full-width-image">
+                </div>
+                <p class="image-caption">More information about me.</p>
+            </section>
+
+            <section id="plans" class="image-block">
+                <div class="image-wrapper">
+                    <img src="images/img-plans.png" alt="Jose Sevilla IV Personal Training" class="full-width-image">
+                </div>
+                <p class="image-caption">Training plans that fit your lifestyle and schedule.</p>
+            </section>
+
+            <footer class="site-footer">
+                <hr class="footer-divider">
+                
+                <p>Made with <span>❤︎</span> by <a href="#top" class="footer-name">Jose Sevilla IV</a></p>
+            </footer>
+        </main>
+    </div>
 
 </body>
 </html>
